@@ -18,9 +18,9 @@ main {
 section {
    background-image: url(./IMG_3518.jpg);
   
-  background-color: #2b2fb9;
+  background-color: #a2a2aa;
   background-size: cover;
-  height:500px;
+  height:1000px;
   
 }
 
@@ -174,8 +174,8 @@ section {
 
 }
 .text{
-   
-  font-size: 35px;
+  
+  font-size: 30px;
   color:rgb(148, 80, 120);
   text-shadow: #707074;
   text-decoration: wavy;
@@ -183,17 +183,17 @@ section {
   font-style: oblique;
   font-weight: bold;
   border:7px solid;
-  border-radius: 5px;
-  border-color: #6b99be7b;
+  border-radius: 15px;
+  border-color: #75b9c77b;
   backdrop-filter: blur(6px);
-  width:850px;
-  margin: auto;
+  width:950px;
+  margin:auto
 }
 #birthdayTime{
- margin:auto;
+  margin:auto;
   width: 800px;
   backdrop-filter: blur(2px);
-  font-size: 25px;
+  font-size: 35px;
   font-style: italic bold ;
   color:rgb(216, 143, 188);
   text-shadow: #4e4d4f;
@@ -209,8 +209,8 @@ border-width: 5px;
 }
 #redirectButton {
   display:block;
-  margin:  40px auto;
-  padding: 10px 20px;
+  margin:  30px auto;
+  padding: 1px 20px;
   font-size: 35px;
   background-color: #af699f; 
   color: #adcadb;
