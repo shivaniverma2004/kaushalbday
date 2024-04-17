@@ -174,19 +174,19 @@ section {
 
 }
 .text{
-  
+   
   font-size: 35px;
   color:rgb(148, 80, 120);
   text-shadow: #707074;
+  text-decoration: wavy;
   font-family:cursive;
-  font-style: italic;
-  font-weight: 50;
-  border:5px solid;
-  border-radius: 7px;
+  font-style: oblique;
+  font-weight: bold;
+  border:7px solid;
+  border-radius: 5px;
   border-color: #6b99be7b;
   backdrop-filter: blur(6px);
   width:850px;
-  margin:auto;
 }
 #birthdayTime{
   margin:auto;
