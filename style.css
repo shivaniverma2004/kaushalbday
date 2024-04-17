@@ -176,13 +176,16 @@ section {
 .text{
   
   font-size: 35px;
-  color:rgb(147, 68, 116);
-  text-shadow: #1a1a1b;
-  font-family:'Times New Roman', Times, serif;
-  border:solid;
-  border-color: #46554b67;
+  color:rgb(148, 80, 120);
+  text-shadow: #707074;
+  font-family:cursive;
+  font-style: italic;
+  font-weight: 50;
+  border:7px solid;
+  border-radius: 5px;
+  border-color: #6b99be7b;
   backdrop-filter: blur(6px);
-  width:900px;
+  width:850px;
   margin:auto;
 }
 #birthdayTime{
