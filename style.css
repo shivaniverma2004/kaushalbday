@@ -1,0 +1,208 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e4eaed;
+  color: #374151;
+
+}
+*{
+  text-shadow:2px 2px 4px #6f6969; 
+  margin: 0px;
+  padding: 0px;
+}
+/* Main section */
+main {
+  padding: 1rem;
+}
+
+/* Background image */
+section {
+   background-image: url(./IMG_3518.jpg);
+  background-position: center;
+  background-color: #2b2fb9;
+  background-size: cover;
+  height:500px;
+  
+}
+
+#countdown {
+  
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  text-decoration-color: #dfd0df;
+} 
+.space {
+  height:50px;
+}
+
+.clock {
+  
+  text-align: center;
+
+  margin: 0 0.5rem;
+  background-color: rgb(240, 226, 233);
+  border-style: double;
+  /* border-color: rgb(6, 161, 48); */
+   border-radius: 10px;
+   width:120px;
+   height: 80px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 20px;
+   /* background: none; */
+}
+
+/* Text colors */
+.text-red-600 {
+  color: #c583ab;
+}
+
+.text-gray-700 {
+  color: #e2dbef;
+  font-size: 50px ; 
+}
+
+
+.text-slate-950 {
+  color: #604968;
+  margin:6px
+}
+
+/* Font styles */
+.font-mono {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.font-bold {
+  font-weight:bolder;
+}
+
+.font-semibold {
+  font-weight: 900;
+}
+
+/* Text decorations */
+
+/* Other styles */
+.w-full {
+  width: 100%;
+}
+
+.h-screen {
+  height: 150vh;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom:2rem;
+}
+#dateyear{
+  width:800px;
+  
+  margin:auto;
+  text-shadow: #000000;
+  font-size: 40px;
+  backdrop-filter: blur(1.5px);
+
+}
+#message{
+  width: 800px;
+  margin:auto;
+  backdrop-filter: blur(2px);
+  font-size: 40px;
+  color:rgb(188, 142, 187);
+  text-shadow:2px 2px 4px #000000; 
+}
+.radha{
+  width: 800px;
+  margin:auto;
+  backdrop-filter: blur(1.5px);
+  font-size: 25px;
+  color:rgb(223, 217, 217);
+  text-shadow:2px 2px 4px #000000; 
+  font-size: 40px;
+}
+.wish{
+ 
+  font-size: 25px;
+  color:white;
+
+}
+.text{
+  
+  font-size: 25px;
+  color:rgb(205, 235, 239);
+  font-family:'Times New Roman', Times, serif;
+  border:solid;
+  border-color: #46554b67;
+  backdrop-filter: blur(5px);
+  width:1000px;
+  margin:auto;
+}
+#birthdayTime{
+  margin:auto;
+  width: 800px;
+  backdrop-filter: blur(2px);
+  font-size: 25px;
+  color:rgb(225, 212, 220);
+  text-shadow: #716f72;
+}
+.yearold{
+  width: 800px;
+  margin:auto;
+  backdrop-filter: blur(1.5px);
+align-items: center;
+border-radius: 30px;
+border-width: 5px;
+
+}
