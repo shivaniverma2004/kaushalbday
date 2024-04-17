@@ -4,20 +4,20 @@ body {
   color: #374151;
 
 }
-*{
+{
   text-shadow:2px 2px 4px #6f6969; 
   margin: 0px;
   padding: 0px;
 }
-/* Main section */
+
 main {
   padding: 1rem;
 }
 
-/* Background image */
+
 section {
    background-image: url(./IMG_3518.jpg);
-  background-position: center;
+  
   background-color: #2b2fb9;
   background-size: cover;
   height:500px;
@@ -31,9 +31,6 @@ section {
   margin-top: 2rem;
   text-decoration-color: #dfd0df;
 } 
-.space {
-  height:50px;
-}
 
 .clock {
   
@@ -53,7 +50,7 @@ section {
    /* background: none; */
 }
 
-/* Text colors */
+
 .text-red-600 {
   color: #c583ab;
 }
@@ -69,7 +66,7 @@ section {
   margin:6px
 }
 
-/* Font styles */
+
 .font-mono {
   font-family:Georgia, 'Times New Roman', Times, serif;
 }
@@ -82,9 +79,7 @@ section {
   font-weight: 900;
 }
 
-/* Text decorations */
 
-/* Other styles */
 .w-full {
   width: 100%;
 }
@@ -152,13 +147,13 @@ section {
   margin:auto;
   text-shadow: #000000;
   font-size: 40px;
-  backdrop-filter: blur(2.5px);
+  backdrop-filter: blur(1.5px);
 
 }
 #message{
   width: 800px;
   margin:auto;
-  backdrop-filter: blur(2.5px);
+  backdrop-filter: blur(2px);
   font-size: 40px;
   color:rgb(188, 142, 187);
   text-shadow:2px 2px 4px #000000; 
@@ -166,7 +161,7 @@ section {
 .radha{
   width: 800px;
   margin:auto;
-  backdrop-filter: blur(2.5px);
+  backdrop-filter: blur(1.5px);
   font-size: 25px;
   color:rgb(223, 217, 217);
   text-shadow:2px 2px 4px #000000; 
@@ -179,9 +174,10 @@ section {
 
 }
 .text{
-  text-shadow: #1a1a1b;
+  
   font-size: 35px;
   color:rgb(147, 68, 116);
+  text-shadow: #1a1a1b;
   font-family:'Times New Roman', Times, serif;
   border:solid;
   border-color: #46554b67;
@@ -192,7 +188,7 @@ section {
 #birthdayTime{
   margin:auto;
   width: 800px;
-  backdrop-filter: blur(2.5px);
+  backdrop-filter: blur(2px);
   font-size: 25px;
   color:rgb(225, 212, 220);
   text-shadow: #716f72;
@@ -200,8 +196,11 @@ section {
 .yearold{
   width: 800px;
   margin:auto;
-  backdrop-filter: blur(2.5px);
+  backdrop-filter: blur(1.5px);
 align-items: center;
+border-radius: 30px;
+border-width: 5px;
+
 }
 #redirectButton {
   display:block;
