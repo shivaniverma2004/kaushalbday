@@ -187,6 +187,7 @@ section {
   border-color: #6b99be7b;
   backdrop-filter: blur(6px);
   width:850px;
+  margin:auto;
 }
 #birthdayTime{
   margin:auto;
