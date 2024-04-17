@@ -187,15 +187,16 @@ section {
   border-color: #6b99be7b;
   backdrop-filter: blur(6px);
   width:850px;
-  margin:auto;
+  margin: auto;
 }
 #birthdayTime{
-  margin:auto;
+ margin:auto;
   width: 800px;
   backdrop-filter: blur(2px);
   font-size: 25px;
-  color:rgb(225, 212, 220);
-  text-shadow: #716f72;
+  font-style: italic bold ;
+  color:rgb(216, 143, 188);
+  text-shadow: #4e4d4f;
 }
 .yearold{
   width: 800px;
