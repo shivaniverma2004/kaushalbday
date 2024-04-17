@@ -203,3 +203,58 @@ section {
   backdrop-filter: blur(2.5px);
 align-items: center;
 }
+#redirectButton {
+  display:block;
+  margin:  40px auto;
+  padding: 10px 20px;
+  font-size: 35px;
+  background-color: #af699f; 
+  color: #adcadb;
+  border: rgba(211, 210, 211, 0.827);
+  border-radius: 5px;
+  cursor: pointer;
+   width: 200px;
+   height: 70px;
+   font-style: italic;
+   font-family:cursive;
+   text-decoration: wavy;
+}
+
+#redirectButton:hover {
+  background-color: #932393; 
+  font-style: italic;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: wavy;
+  font-size: 30px;
+  border: 5px double #da50ba;
+}
+#vdo {
+  background-color: #c3b1bc; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#video-container {
+  text-align: center; 
+}
+
+video {
+  border: 8px solid #bea5a5; 
+  border-radius: 15px; 
+  box-shadow: 0 0 20px rgba(59, 59, 59, 0.2); 
+  display: block; 
+  margin: 0 auto;
+}
+
+.description {
+  font-size: 45px;
+  margin-top: 20px; 
+  color: #85567a;
+  font-style: italic;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-shadow: #716f72;
+ 
+}
