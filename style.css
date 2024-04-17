@@ -175,7 +175,7 @@ section {
 }
 .text{
   
-  font-size: 30px;
+  font-size: 35px;
   color:rgb(148, 80, 120);
   text-shadow: #707074;
   text-decoration: wavy;
@@ -186,17 +186,17 @@ section {
   border-radius: 15px;
   border-color: #75b9c77b;
   backdrop-filter: blur(6px);
-  width:950px;
+  width:248px;
   margin:auto
 }
 #birthdayTime{
   margin:auto;
-  width: 800px;
-  backdrop-filter: blur(2px);
-  font-size: 35px;
+  width: 500px;
+  backdrop-filter: blur(3px);
+  font-size: 30px;
   font-style: italic bold ;
-  color:rgb(216, 143, 188);
-  text-shadow: #4e4d4f;
+  color:rgb(195, 52, 159);
+  text-shadow: #3b3b3b;
 }
 .yearold{
   width: 800px;
