@@ -9,7 +9,7 @@ const redirectButton = document.getElementById('redirectButton');
 
 const currentYear = new Date().getFullYear();
 
-const birthday = new Date(`Apr 17 ${currentYear} 00:00:00`);
+const birthday = new Date(`Apr 19 ${currentYear} 00:00:00`);
 
 const today = new Date();
 const currentDateTime = new Date(`${today.getMonth()} ${today.getDate()} ${currentYear}`);
@@ -27,7 +27,7 @@ let timerId;
 
 function updateCountdown() {
     const now = new Date();
-    const nextBirthday = new Date(`Apr 17 ${currentYear + 1} 00:00:00`);
+    const nextBirthday = new Date(`Apr 19 ${currentYear + 1} 00:00:00`);
     const timeSpan = birthday < now ? nextBirthday - now : birthday - now;
     const nextAge = birthday < now ? age + 1 : age;
 
