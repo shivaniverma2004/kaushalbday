@@ -179,9 +179,9 @@ section {
 
 }
 .text{
-  
+  text-shadow: #1a1a1b;
   font-size: 25px;
-  color:rgb(153, 203, 209);
+  color:rgb(147, 68, 116);
   font-family:'Times New Roman', Times, serif;
   border:solid;
   border-color: #46554b67;
