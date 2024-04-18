@@ -53,11 +53,13 @@ section {
 
 .text-red-600 {
   color: #c583ab;
+  text-shadow: #604968;
 }
 
 .text-gray-700 {
   color: #e2dbef;
   font-size: 50px ; 
+  text-shadow: #707074;
 }
 
 
@@ -145,7 +147,7 @@ section {
   width:800px;
   
   margin:auto;
-  text-shadow: #000000;
+  text-shadow:2px 2px 4px #414040;
   font-size: 40px;
   backdrop-filter: blur(1.5px);
 
@@ -156,7 +158,7 @@ section {
   backdrop-filter: blur(2px);
   font-size: 40px;
   color:rgb(188, 142, 187);
-  text-shadow:2px 2px 4px #000000; 
+  text-shadow:2px 2px 4px #5a5a5a; 
 }
 .radha{
   width: 800px;
@@ -177,7 +179,7 @@ section {
   
   font-size: 35px;
   color:rgb(148, 80, 120);
-  text-shadow: #707074;
+  text-shadow:2px 2px 4px #707074;
   text-decoration: wavy;
   font-family:cursive;
   font-style: oblique;
@@ -189,6 +191,9 @@ section {
   width:248px;
   margin:auto
 }
+#space {
+  height: 30px;
+}
 #birthdayTime{
   margin:auto;
   width: 500px;
@@ -196,7 +201,7 @@ section {
   font-size: 30px;
   font-style: italic bold ;
   color:rgb(195, 52, 159);
-  text-shadow: #3b3b3b;
+  text-shadow:2px 2px 2px #3b3b3b;
 }
 .yearold{
   width: 800px;
@@ -205,7 +210,7 @@ section {
 align-items: center;
 border-radius: 30px;
 border-width: 5px;
-
+text-shadow:2px 2px 4px #707074;
 }
 #redirectButton {
   display:block;
@@ -222,6 +227,7 @@ border-width: 5px;
    font-style: italic;
    font-family:cursive;
    text-decoration: wavy;
+   text-shadow: 2px 2px 2px #73767971;
 }
 
 #redirectButton:hover {
@@ -231,9 +237,10 @@ border-width: 5px;
   text-decoration: wavy;
   font-size: 30px;
   border: 5px double #da50ba;
+  text-shadow: 2px 2px 4px #88b5be7b;
 }
 #vdo {
-  background-color: #c3b1bc; 
+  background-color: #2f2e2e; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -246,9 +253,9 @@ border-width: 5px;
 }
 
 video {
-  border: 8px solid #bea5a5; 
+  border: 8px solid #2d2c2c; 
   border-radius: 15px; 
-  box-shadow: 0 0 20px rgba(59, 59, 59, 0.2); 
+  box-shadow: 0 0 20px rgba(128, 126, 126, 0.2); 
   display: block; 
   margin: 0 auto;
 }
@@ -256,9 +263,9 @@ video {
 .description {
   font-size: 45px;
   margin-top: 20px; 
-  color: #85567a;
+  color: #e7d6e3;
   font-style: italic;
   font-family:Georgia, 'Times New Roman', Times, serif;
-  text-shadow: #716f72;
+  text-shadow: #a09da2;
  
 }
